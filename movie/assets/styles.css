@@ -1,0 +1,111 @@
+body {
+    margin: auto;
+    max-width: 1200px;
+    font-family: Arial;
+}
+
+.btn {
+    background-color: #9191ff;
+    border-style: solid;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.header {
+    margin: auto;
+    height: 40px;
+    padding: 10px;
+    padding-top: 1.5em;
+    background-color: #e7abab;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    float: left;
+    font-size: 1.8em;
+}
+
+.header .account {
+    float: right;
+}
+
+.container {
+    margin: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.container .movie {
+    margin-bottom: 12px;
+}
+
+.container .movie .title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container .movie .stars {
+}
+
+.container .desc .main {
+    float: left;
+    width: 70%;
+}
+
+.container .desc .main .plot {
+}
+
+.container .desc .main .plot .author {
+    color: #929090;
+}
+
+.container .desc .details {
+    float: right;
+    width: 25%;
+    background-color: #FAFAD2;
+    padding: 15px;
+}
+
+.container .desc .details a, .container .desc .details a:hover, .container .desc .details a:visited {
+    color: #808000;
+    text-decoration: none;
+}
+
+.container .desc .details a:hover {
+    text-decoration: underline;
+}
+
+.container .desc .details .item {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #808000;
+}
+
+.container .desc .details .item img {
+    width: 100%;
+}
+
+.container .desc .details .item .title {
+    font-weight: bold;
+}
+
+.container .newsletter {
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    background-color: #808000;
+}
+
+.container .newsletter .form {
+    margin-top: 10px;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 12px;
+}
