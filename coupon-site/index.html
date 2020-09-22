@@ -2,6 +2,16 @@
 <html lang="en">
 <head>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178581709-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-178581709-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -76,7 +86,7 @@
                         <div class="product container">
                             <div class="row">
                                 <div class="col">
-                                    <a href="product.html" class="name">
+                                    <a href="product.html" onclick="onClickProduct(event)" id="product-1" class="name">
                                         Helicopter Tours for Two
                                     </a>
                                 </div>
@@ -105,7 +115,7 @@
                         <div class="product container">
                             <div class="row">
                                 <div class="col">
-                                    <a href="product.html" class="name">
+                                    <a href="product.html" onclick="onClickProduct(event)" class="name">
                                         Halloween Customes
                                     </a>
                                 </div>
@@ -360,6 +370,7 @@
         crossorigin="anonymous"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/site.js?v=4"></script>
 </body>
 
 </html>
