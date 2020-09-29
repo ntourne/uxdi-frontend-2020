@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108360961-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108360961-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -112,7 +122,7 @@
                     <div class="description">
                         Flight in helicopter for two people. 30 min travel around Chicago.
                     </div>
-                    <a href="thank-you.html" class="btn btn-primary btn-lg btn-block mt-4">Buy Now</a>
+                    <button onclick="onBuyProduct()" class="btn btn-primary btn-lg btn-block mt-4">Comprar Ahora</button>
                     <a href="#" class="btn btn-secondary btn-lg btn-block mt-2" id="give-as-gift">Give as a Gift</a>
 
                     <hr>
@@ -302,6 +312,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="assets/js/coupon.js"></script>
+    <script src="assets/js/site.js"></script>
 </body>
 
 </html>
